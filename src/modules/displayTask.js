@@ -1,5 +1,4 @@
 import { Todo, toDoObject } from './toDoObject.js';
-import toDoItemStatus from './clearAll.js';
 import TodoMagazine from './TodoMagazine.js';
 
 const todoList = document.querySelector('#todoList');
@@ -54,7 +53,6 @@ const createTodoList = () => {
     TodoMagazine(toDoObject);
     createTodoList();
   });
-  toDoItemStatus();
 };
 
 export default createTodoList;
