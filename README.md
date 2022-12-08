@@ -125,7 +125,7 @@ npm install
 ```
 npm start
 
-## 🔭 Live Demo <a name="future-features"></a>
+## 🔭 Live Demo <a name="live-demo"></a>
 [Live Demo](https://belaymit.github.io/ES6-To-do-List/dist/)
 ### Usage
 
