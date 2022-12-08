@@ -23,9 +23,9 @@ const createTodoList = () => {
     move[index].style.display = 'none';
     deleteBtn[index].style.display = 'flex';
     trash[index].style.color = 'red';
-    todo[index].style.backgroundColor = '#DFDEAB';
-    listItem[index].style.backgroundColor = '#DFDEAB';
-    deleteBtn[index].backgroundColor = '#DFDEAB';
+    todo[index].style.backgroundColor = '#dfdeab';
+    listItem[index].style.backgroundColor = '#dfdeab';
+    deleteBtn[index].backgroundColor = '#dfdeab';
   }));
 
   deleteBtn.forEach((button, index) => button.addEventListener('click', () => {
